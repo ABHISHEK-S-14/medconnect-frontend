@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Doctor Dashboard | MedConnect</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <header class="bg-white shadow p-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold text-blue-600">MedConnect - Doctor Dashboard</h1>
+    <button class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600">Logout</button>
+  </header>
+
+  <main class="p-6 grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto">
+
+    <!-- Today's Appointments -->
+    <section class="bg-white p-6 rounded shadow">
+      <h2 class="text-xl font-semibold mb-4">Today's Appointments</h2>
+      <ul class="space-y-2">
+        <li class="border p-3 rounded">Patient: Rahul S. | Time: 10:30 AM</li>
+        <li class="border p-3 rounded">Patient: Ananya M. | Time: 12:00 PM</li>
+        <li class="border p-3 rounded">Patient: Kavya R. | Time: 3:00 PM</li>
+      </ul>
+    </section>
+
+    <!-- Patient Messages -->
+    <section class="bg-white p-6 rounded shadow">
+      <h2 class="text-xl font-semibold mb-4">Patient Messages</h2>
+      <ul class="space-y-3">
+        <li class="bg-gray-50 p-3 border rounded">Rahul: "Should I continue my meds?"</li>
+        <li class="bg-gray-50 p-3 border rounded">Kavya: "Need test result discussion."</li>
+      </ul>
+    </section>
+
+    <!-- Upload Reports -->
+    <section class="bg-white p-6 rounded shadow">
+      <h2 class="text-xl font-semibold mb-4">Upload Patient Reports</h2>
+      <input type="file" class="mb-4">
+      <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Upload</button>
+    </section>
+
+    <!-- Health Articles -->
+    <section class="bg-white p-6 rounded shadow">
+      <h2 class="text-xl font-semibold mb-4">Publish Health Tips</h2>
+      <textarea class="w-full border rounded p-2 mb-4" rows="4" placeholder="Write tip here..."></textarea>
+      <button class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">Publish</button>
+    </section>
+
+  </main>
+</body>
+</html>

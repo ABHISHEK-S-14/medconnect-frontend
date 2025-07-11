@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MedConnect Dashboard</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <div class="bg-white shadow p-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold text-blue-600">MedConnect Dashboard</h1>
+    <button class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600">Logout</button>
+  </div>
+
+  <div class="p-6 grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+    
+    <!-- Card: Upcoming Appointments -->
+    <div class="bg-white p-6 rounded shadow">
+      <h2 class="text-xl font-semibold mb-4">Upcoming Appointments</h2>
+      <ul class="space-y-2">
+        <li class="border p-2 rounded">Dr. Smith - July 15, 10:00 AM</li>
+        <li class="border p-2 rounded">Dr. Kavya - July 20, 02:00 PM</li>
+      </ul>
+    </div>
+
+    <!-- Card: Recent Reports -->
+    <div class="bg-white p-6 rounded shadow">
+      <h2 class="text-xl font-semibold mb-4">Recent Reports</h2>
+      <ul class="space-y-2">
+        <li class="border p-2 rounded">Blood Test - June 22</li>
+        <li class="border p-2 rounded">X-Ray Chest - June 10</li>
+      </ul>
+    </div>
+
+    <!-- Card: Health Tips -->
+    <div class="bg-white p-6 rounded shadow">
+      <h2 class="text-xl font-semibold mb-4">Health Tips</h2>
+      <ul class="list-disc pl-5 text-gray-700">
+        <li>Stay hydrated and eat balanced meals.</li>
+        <li>Get 7–8 hours of sleep every night.</li>
+        <li>Regularly consult with your doctor.</li>
+      </ul>
+    </div>
+
+    <!-- Card: Medical Record Upload -->
+    <div class="bg-white p-6 rounded shadow">
+      <h2 class="text-xl font-semibold mb-4">Upload Medical Records</h2>
+      <input type="file" class="mb-4">
+      <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Upload</button>
+    </div>
+
+  </div>
+</body>
+</html>
