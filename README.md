@@ -49,4 +49,36 @@ A responsive front-end platform for seamless interaction between patients and do
 ---
 
 ## 📁 Folder Structure
+medconnect-frontend/
+├── index.html
+├── auth.html
+├── dashboard.html
+├── doctor-dashboard.html
+├── /screenshots
+│ ├── landing.png
+│ ├── auth.png
+│ ├── dashboard.png
+│ └── doctor-dashboard.png
+└── README.md
+
+
+---
+
+## 🔮 Future Improvements
+
+- Firebase login + Firestore DB
+- Admin panel
+- PDF export of reports
+- Patient-doctor messaging
+- Dark mode switch
+
+---
+
+## 👤 Author
+
+**Abhishek S**  
+📧 reddyabhishek631@gmail.com  
+📍 Bangalore, India  
+🔗 [LinkedIn](https://www.linkedin.com/in/abhishek-s-5435a9264/)
+
 
