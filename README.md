@@ -12,16 +12,19 @@ A responsive front-end platform for seamless interaction between patients and do
 ## 📸 Screenshots
 
 ### 🔹 Landing Page
-![Landing]()
+![Landing](Screenshot%202025-07-11%20231618.png)
 
 ### 🔹 Login/Register Page
-![Auth](screenshots/auth.png)
+![Auth](Screenshot%202025-07-11%20231655.png)
+
+### 🔹 Login/Register Page
+![Auth](Screenshot%202025-07-11%20231705.png)
 
 ### 🔹 Patient Dashboard
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](Screenshot%202025-07-11%20231633.png)
 
 ### 🔹 Doctor Dashboard
-![Doctor Dashboard](screenshots/doctor-dashboard.png)
+![Doctor Dashboard](Screenshot%202025-07-11%20231721.png)
 
 ---
 
